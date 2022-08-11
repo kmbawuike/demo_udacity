@@ -562,8 +562,8 @@ jobs:
           name: "Setup custom environment variables"
           command: echo 'export MY_ENV_VAR="FOO"' >> $BASH_ENV
 
-      - revert-migrations
-      - destroy-environment
+      # - revert-migrations
+      # - destroy-environment
 #       # Here's where you will add some code to rollback on failure  
   
   
